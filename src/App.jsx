@@ -3,9 +3,9 @@ import Stars from './stars/Stars';
 
 function App(){
   return (
-    <div>
+    <>
       <Stars></Stars>
-    </div>
+    </>
   );
 }
 

@@ -23,7 +23,7 @@ const Stars = () => {
   }, []);
 
   return (
-    <div>
+    <>
       {stars.map(star => (
         <div 
           key={star.id}
@@ -31,7 +31,7 @@ const Stars = () => {
           style={{ top: star.top, left: star.left }}
         ></div>
       ))}
-    </div>
+    </>
   );
 }
 
